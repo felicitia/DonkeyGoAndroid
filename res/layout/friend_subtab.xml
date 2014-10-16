@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/friend_subtab" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		<!-- 注意FrameLayout/TabWidget标签的位置-->
+		<TabWidget 
+			android:id="@android:id/tabs"
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:background="#FFFFFF"
+			android:tabStripLeft="@drawable/tab"
+			android:tabStripRight="@drawable/tab"/>
+			
+			<android.support.v4.view.ViewPager
+            android:id="@+id/viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" /> 
+            
+		<FrameLayout 
+			android:id="@android:id/tabcontent"
+			android:layout_weight="1" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+				<ListView 
+				android:id="@id/android:list" 
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="1"
+				android:drawSelectorOnTop="false" />
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

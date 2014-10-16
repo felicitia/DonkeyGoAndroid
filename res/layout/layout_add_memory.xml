@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgwhite"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#4ca7f8"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/go_back_add_meomry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/tab_selector_goback" />
+
+        <TextView
+            android:id="@+id/add_memory_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="添加记忆"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="标题："
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/add_memory_title_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:hint="请输入标题" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="地点："
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/add_memory_location_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:hint="请输入地点(例:陕西西安)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="内容："
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/add_memory_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:hint="请输入记忆详情"
+            android:lines="6" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radio_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/pub_memory"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector_pup_memory"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/save_memory"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector_save_memory"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/add_location"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector_add_location"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/view_location"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector_view_location"
+                android:button="@null" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

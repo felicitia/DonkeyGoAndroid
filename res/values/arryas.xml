@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="loction_type">
+        <item>路标</item>
+        <item>景点</item>
+        <item>餐饮</item>
+    </string-array>
+    <string-array name="provence_name">
+        <item>直辖市</item>
+        <item>内蒙古</item>
+        <item>福建</item>
+        <item>浙江</item>
+        <item>河南</item>
+    </string-array>
+    <string-array name="zhixiashi_name">
+        <item>北京</item>
+        <item>天津</item>
+        <item>上海</item>
+        <item>重庆</item>
+    </string-array>
+    <string-array name="neimenggu_city_name">
+        <item>呼和浩特</item>
+        <item>包头</item>
+        <item>赤峰</item>
+        <item>通辽</item>
+    </string-array>
+    <string-array name="fujian_city_name">
+        <item>福州</item>
+        <item>厦门</item>
+        <item>三明</item>
+        <item>莆田</item>
+    </string-array>
+    <string-array name="zhejiang_city_name">
+        <item>宁波</item>
+        <item>温州</item>
+        <item>嘉兴</item>
+        <item>绍兴</item>
+    </string-array>
+    <string-array name="henan_city_name">
+        <item>郑州</item>
+        <item>商丘</item>
+        <item>洛阳</item>
+        <item>商丘</item>
+    </string-array>
+    
+    <string-array name="lasting_day">
+        <item>一天</item>
+        <item>三到五天</item>
+        <item>十五天</item>
+        <item>一个月</item>
+    </string-array>
+
+</resources>

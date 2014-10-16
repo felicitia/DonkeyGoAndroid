@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/large_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/large_pic"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_avatar" >
+    </ImageView>
+
+    <ProgressBar
+        android:id="@+id/large_pic_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
